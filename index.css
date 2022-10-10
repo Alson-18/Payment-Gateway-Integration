@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    position: relative;
+    background-image: url('image3.jpeg');
+}
+
+nav {
+    height: 10vh;
+    width: 100%;
+    background-color: rgba(20, 33, 61, 0.0);
+    position: relative;
+}
+
+header {
+    width: 100%;
+    position: absolute;
+}
+
+.camp {
+    margin-left: 40px;
+    margin-top: 50px;
+    float:left;
+    height: 100%;
+    color: crimson;
+    font-size: 50px;
+}
+
+.hello {
+    margin-top: 50px;
+    float: right;
+    height: 1000%;
+}
+
+
+.ok {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.world {
+    font-size: 3em;
+}
+
+#donate {
+    font-size: 20px;
+    padding: 16px;
+    margin: 12px;
+    margin-top: 15px;
+    background-color: #B18904;
+    text-decoration: none ;
+    font-weight: bold;
+    color: black;
+    transition: 300ms linear;
+}
+
+
